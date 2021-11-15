@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.main{
+ 
+  background-image: url("../src/background.jpg");
+  background-size: cover;
+  
+
+}
+.table{
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+.form-row label{
+  font-size:x-large;
+  font-style: bold;
+  color: aliceblue;
+
+}
+.add{
+  position: relative;
+  left: -450px;
+  top: -180px;
+  width: 80px;
+  height: 90px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.edit{
+  position: relative;
+  left: 450px;
+  top: -180px;
+  width: 80px;
+  height: 90px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table td,th{
+    border: 5px solid red;
+    text-align: left;
+    padding: 8px;
+  
 }
+.thead tr,td,th{
+  color: aliceblue;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.form label{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main h1{
+  color: aliceblue;
 }
